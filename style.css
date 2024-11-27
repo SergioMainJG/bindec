@@ -1,0 +1,78 @@
+:root {
+    color-scheme: dark;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1{
+    height: 3rem;
+    margin: 2rem 1rem;
+}
+
+p{
+    height: 1.5rem;
+    margin: 3rem 1rem;
+}
+
+input{
+    margin: 2rem;
+    border: 1px solid #ffffff94;
+    min-width: 5rem;
+    max-width: 20rem;
+    width: 25vw;
+    min-height: 1rem;
+    max-height: 6rem;
+    height: 2vh;
+    background-color: rgba(108, 108, 108, 0.207);
+    text-align: center;
+    font-size: 0.7rem;
+};
+input::placeholder {
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+#result-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem;
+}
+#result-container > {
+    flex: 1;
+}
+
+textarea{
+    background-color: inherit;
+    min-width: 5rem;
+    max-width: 15rem;
+    width: auto;
+    min-height: 1rem;
+    max-height: 5rem;
+    height: auto;
+    resize: none;
+    overflow: auto;
+}
+
+#log{
+    min-height: 5rem;
+    max-height: 20rem;
+    height: 100vh;
+    width: 40vw;
+}
+
+.field-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+label{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
